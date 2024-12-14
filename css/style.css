@@ -1,0 +1,118 @@
+
+@charset "utf-8";
+/* CSS Document */
+body{ background-image:url(../images/bg.jpg); background-color:#9191cf; background-repeat:repeat-x; margin:0; padding:0}
+.spacer{ width:100%; height:1px; line-height:1px; font-size:1px; clear:both}
+h1{ font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:26px; color:#000; padding-left:20px; padding-top:20px}
+h2{ font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:21px; color:#4f4d4d; padding-left:20px; }
+h3{ font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:21px; color:#4f4d4d; padding-top:20px; }
+
+
+
+#wrapper{ width:1000px; height:auto; margin:0 auto; }
+#wrap_bg{ width:1000px; height:auto; background-color:#FFF; margin-top:10px; overflow:hidden}
+
+#top_lft{ width:210px; height:547px; background-color:#f0f0f0; float:left}
+.logo{ width:170px; height:165px; margin-top:12px; margin-left:20px}
+.offer{ width:191px; height:86px; margin-top:7px}
+.weather{ width:191px; height:112px;; margin-left:10px; margin-top:3px}
+#phn{ width:200px; height:auto;; margin-left:10px; margin-top:22px }
+#phn p{ font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:14px; color:#000; line-height:24px}
+
+#top_rt{ width:790px; height:auto; float:right}
+#menu{ width:788px; height:42px; background-image:url(../images/menu_bg.png); background-repeat:no-repeat; margin-top:15px; float:right}
+#menu ul{ text-decoration:none; }
+#menu ul li{ font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:18px; color:#FFF; float:left; padding:12px 21px}
+#menu ul li a{ color:#FFF; }
+#menu ul li a:hover{ color:#efff00}
+.active a{ color:#efff00 !important}
+
+
+#banner{ width:789px; height:368px; margin-left:1px; overflow:hidden}
+#cal{ width:789px; height:122px; margin-left:1px}
+
+#content{ width:1000px; height:auto}
+#content_lft{ width:585px; height:auto; float:left; overflow:hidden}
+#txt{ width:285px; height:auto}
+#txt p{ font-family:Tahoma, Geneva, sans-serif; font-size:15px; color:#e30043; font-style:italic; font-weight:bold;
+	 line-height:18px; padding-left:20px; padding-top:7px}
+#welcome{ width:575px; height:auto}	 
+#welcome p{ font-family:Verdana, Geneva, sans-serif; font-size:13px; color:#000; line-height:19px; text-align:justify;
+		 padding-top:7px; padding-left:22px}
+		 
+#accom{ width:570px; height:auto; margin-top:35px}
+#accom_img{ width:281px; height:178px; float:left; margin-top:12px; margin-left:20px}
+#accom_txt{ width:250px; height:auto; float:left; margin-left:15px}
+#accom_txt p{ font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#4f4d4d; line-height:20px; text-align:justify;
+	 padding-top:10px}
+	 
+#content_rt{ width:408px; height:auto; float:right}
+#reservation_img{ width:383px; height:181px; margin-left:10px; margin-top:25px}
+#reservation_img1{ width:189px; height:102px; float:left; margin-top:8px}
+#reservation_img2{ width:186px; height:102px; float:left; margin-top:8px; margin-left:8px}
+#amenities{ width:408px; height:auto}
+#amenities_lft{ width:188px; height:auto; float:left}
+#amenities_lft ul{ text-decoration:none; margin-top:10px}
+#amenities_lft ul li{ font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#434242; line-height:24px; background-image:url(../images/bullets.png); background-repeat:no-repeat; background-position:0.1em; padding-left:20px}		 	 
+
+#amenities_rt{ width:188px; height:auto; float:left; margin-left:20px; margin-bottom:20px}
+#amenities_rt ul{ text-decoration:none; margin-top:10px}
+#amenities_rt ul li{ font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#434242; line-height:24px; background-image:url(../images/bullets.png); background-repeat:no-repeat; background-position:0.1em; padding-left:20px}	
+
+
+#footer{ width:1000px; height:106px; background-color:#303296}
+#footer p{ font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#FFF; line-height:20px; text-align:center; padding-top:25px}	
+#footer p a{ color:#ffa8bd} 	 
+
+
+
+
+
+
+/******************************contactus********************/
+.contact{ width:980px; height:auto;  overflow:hidden; margin-top:15px; }
+.contactus_lft{ width:395px; height:auto; float:left; }
+.form{ width:280px; height:485px; float:left; margin:10px 0 0 35px; border:1px #000 solid; padding-left:15px; margin-bottom:20px; padding-top:15px}
+.contactus_rt{ width:500px; height:500px; float:left; border:1px #000 solid; margin-top:10px; margin-left:20px; margin-bottom:30px}
+.map{ width:500px; height:500px; }
+
+
+
+
+
+/************************accomodation*****************************/
+.accom_lft{ width:700px; height:auto; float:left; margin-bottom:20px}
+.accom_lft p{ font-family:Verdana, Geneva, sans-serif; font-size:13px; color:#50505d; line-height:20px; padding-left:20px;
+	 text-align:justify; padding-top:5px}
+.accom_rt{ width:290px; height:auto; float:left}
+.accomImg{ width:226px; height:172px; margin-top:50px; margin-left:35px; margin-bottom:20px}
+
+
+
+
+
+/********************attractions*******************************/
+.attraction_lft{ width:700px; height:auto; float:left}	 
+.attraction_lft p{ font-family:Verdana, Geneva, sans-serif; font-size:13px; color:#50505d; line-height:20px; padding-left:20px;
+	 text-align:justify; padding-top:5px}
+.attractions_rt{ width:225px; height:1500px; float:left; margin-left:50px}
+
+
+
+
+
+/****************************gallery*************************/
+.img{ margin:10px 20px; line-height:40px}	 
+
+
+
+
+
+
+
+
+
+
+
+
+

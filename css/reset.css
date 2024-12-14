@@ -1,0 +1,80 @@
+/*	Ayush Man Shrestha
+	Creative Web - Designer
+	
+	+977-9841052441
+	pradip.wagle4@gmail.com
+	
+-------------------------------------------------------------------------------- */
+/*
+PURPOSE:
+	[1] Basic cascading stylesheet for ALL browsers
+	[2] Contains only resets and global styles
+	[3] MEDIA = SCREEN
+
+REVISION HISTORY:
+	January 24, 2012. v1.0. Under Construction.
+
+STATUS OF THIS DOCUMENT:
+	This is a working draft.
+
+AUTHOR:
+	Pradip Wagle
+	p r a d i p . w a g l e 4 @ g m a i l
+
+LEGAL NOTICE:
+	Distribution of this document is limited.
+	Copyright (C) A amp; Autos. All Rights Reserved.
+*/
+
+/*
+==================================
+KILL THE DEFAULTS AND GLOBALIZE
+==================================
+*/
+
+/* Reset CSS Document */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+}
+body {
+	line-height:1
+}
+ol, ul {
+	list-style:none
+}
+blockquote, q {
+	quotes:none
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content:'';
+	content:none
+}
+:focus {
+	outline:0
+}
+ins {
+	text-decoration:none
+}
+del {
+	text-decoration:line-through
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0
+}
+
+
+img { border:0}
+
+.clear { clear:both}
+
+.clearl { clear:left}
+.clearr { clear:right}
+
+a { text-decoration:none; color:#ff0000}
